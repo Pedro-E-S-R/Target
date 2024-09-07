@@ -22,7 +22,7 @@ public class questaoquatro {
 
         System.out.println("\nSequência f):");
         int[] sequenceF = {2, 10, 12, 16, 17, 18, 19};
-        System.out.println("Próximo elemento: " + findNextSequence(sequenceF));
+        System.out.println("Próximo elemento: " + 200);
     }
 
     public static int findNextArithmeticSequence(int[] sequence) {
@@ -65,8 +65,4 @@ public class questaoquatro {
     }
 
 
-    public static int findNextSequence(int[] sequence) {
-        int increment = sequence[sequence.length - 1] - sequence[sequence.length - 2];
-        return sequence[sequence.length - 1] + increment;
-    }
 }
